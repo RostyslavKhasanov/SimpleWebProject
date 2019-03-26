@@ -10,13 +10,12 @@ There is embedded tomcat and embedded in-memory h2 database.
 
 Running from IDE : File - Open - choose project and run.
 
-Running with maven from console:
-- apache-maven-3.6.0
+Running as a Packaged Application:
 - jdk1.8.0_171
 
-In console go to the directory of project and :
+In console go to the directory of project, then:
 ```
-mvn install
+java -jar target/test-0.0.1-SNAPSHOT.jar
 ```
 # curl for test (from postman):
 
